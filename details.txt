@@ -23,3 +23,17 @@ Performances-Group/Solo
 change address
 guiness record
 change award
+
+
+
+
+@media (min-width: 760px) {
+  body::before {
+    background: #040404 url("../img/bg3.jpg")  no-repeat;
+  }
+}
+@media (max-width: 759px) {
+  body::before {
+    background: #040404 url("../img/bg1.jpg") top right no-repeat;
+  }
+}

@@ -32,6 +32,12 @@ body::before {
   z-index: -1;
 }
 
+@media (max-width: 560px) {
+  body::before {
+    background: #040404 url("../img/bg1.jpg") center center no-repeat;
+  }
+}
+
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
